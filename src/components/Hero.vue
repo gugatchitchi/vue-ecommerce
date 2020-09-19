@@ -55,8 +55,12 @@ button {
 @media (min-width:800px) {
   .hero {
     flex-direction: row;
-    background-color: red;
     justify-content: center;
+    align-items: center;
+  }
+  img {
+    margin: 2rem;
+    height: 80%;
   }
 }
 </style>
