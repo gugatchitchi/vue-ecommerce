@@ -19,9 +19,9 @@ export default {
 
 <style scoped>
 .hero {
-  /* margin: 2em 0; */
   position: relative;
   top: 2em;
+  margin-bottom: 2em;
   text-align: center;
   background-color: #E1F8F9;
   display: flex;
@@ -59,8 +59,8 @@ button {
     align-items: center;
   }
   img {
-    margin: 2rem;
-    height: 80%;
+    margin: 2rem 0 2rem 2rem;
+    width: 50%;
   }
 }
 </style>
