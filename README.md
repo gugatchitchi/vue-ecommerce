@@ -1,24 +1,10 @@
 # vue-ecommerce
+This project was made to show how can complex css and html codebe splitted in small chunks of code.
 
-## Project setup
-```
-npm install
-```
+It also shows how navbar and footer can be implemented throughout different pages.
 
 ### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
