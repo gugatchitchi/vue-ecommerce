@@ -1,6 +1,6 @@
 <template>
   <div class="slider">  
-    <h1>What's New</h1>
+    <h1>{{ title }}</h1>
     <!-- Mobile -->
     <VueSlickCarousel v-bind="settingsMobile" class="carousel mobile" ref="carousel">
       <div v-for="product in products" :key="product.id" class="carousel-item">
@@ -42,6 +42,9 @@ import 'vue-slick-carousel/dist/vue-slick-carousel-theme.css'
 import products from "@/database/products"
 export default {
   name: "Slider",
+  props: [
+    'title'
+  ],
   components: { 
     VueSlickCarousel
   },
@@ -87,6 +90,9 @@ export default {
 </script>
 
 <style scoped>
+.slider {
+  padding-bottom: 3rem;
+}
 h1 {
   margin-top: 4rem;
   font-weight: 600;

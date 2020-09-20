@@ -5,17 +5,20 @@
     <main>
       <router-view/>
     </main>
+    <Footer />
   </div>
 </template>
 
 <script>
 import Navbar from "@/components/Navbar"
 import ColorfulMessage from "@/components/ColorfulMessage"
+import Footer from "@/components/Footer"
 export default {
   name: "App",
   components: {
     Navbar,
-    ColorfulMessage
+    ColorfulMessage,
+    Footer,
   }
 }
 </script>
